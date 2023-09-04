@@ -62,21 +62,27 @@ header{
     background-color: aqua;
 }
 
-nav{
-    background-color: orange;
-}
 .nav-bar{
     margin-top: 10px;
     margin-bottom: 10px;
 }
 .nav-bar__content{
+    background-color: orange;
+    min-height: 50px;
     padding: 10px;
+    align-items: center
 }
- .nav-bar__login{
-    text-align: right;
+.nav-bar__logo{
+    display: flex;
+    justify-content: flex-start;
+}
+.nav-bar__login{
+    display: flex;
+    justify-content: flex-end;
  }
  .nav-bar__links{
-    text-align: center;
+    display: flex;
+    justify-content: space-evenly;;
  }
  /* Main content */
  .bg-color-grey{
