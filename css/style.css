@@ -9,3 +9,15 @@ body{
     display: flex;
     flex-direction: column;
 }
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/*  debug */
+
+.debug .container{
+    border: 2px solid black;
+    padding: 20px;
+}
