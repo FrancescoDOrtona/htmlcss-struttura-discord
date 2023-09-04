@@ -25,7 +25,6 @@ body{
 .col-2{
     flex-basis: calc(100% / 6);
     background-color: cornflowerblue;
-    min-height: 400px;
 }
 
 .col-3{
@@ -96,11 +95,11 @@ nav{
  }
 
  [class^='main-section']{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
  }
 
- .col-4, .col-8{
+ .col-4, .col-8, .col-2{
     min-height: 400px;
  }
 
@@ -109,9 +108,14 @@ nav{
     background-color: rgb(33, 33, 33);
  }
 
+ .footer__1{
+    padding-top: 5px;
+    padding-bottom: 25px;
+ }
+
 /*  debug */
 
-.debug .container{
+/* .debug .container{
     border: 2px solid black;   
 }
 
@@ -121,4 +125,4 @@ nav{
 
 .debug [class^='col-']{
     border: 1px solid green;
-}
+} */
