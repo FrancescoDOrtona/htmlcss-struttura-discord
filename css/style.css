@@ -127,6 +127,8 @@ header{
  }
 
 .col-1{
+    display: flex;
+    justify-content: center;
     flex-basis: calc(100% / 12);
     background-color: pink;
     min-height: 30px;
