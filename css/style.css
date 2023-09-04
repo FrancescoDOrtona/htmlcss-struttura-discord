@@ -22,6 +22,12 @@ body{
     display: flex;
 }
 
+.col-2{
+    flex-basis: calc(100% / 6);
+    background-color: cornflowerblue;
+    min-height: 400px;
+}
+
 .col-3{
     flex-basis: calc(100% / 4);
 }
@@ -80,7 +86,7 @@ nav{
  .bg-color-blue{
     background-color: blue;
  }
- 
+
  .main-section-1{
     justify-content: center;
  }
@@ -96,6 +102,11 @@ nav{
 
  .col-4, .col-8{
     min-height: 400px;
+ }
+
+ /* Footer */
+ .footer{
+    background-color: rgb(33, 33, 33);
  }
 
 /*  debug */
