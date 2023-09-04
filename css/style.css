@@ -38,10 +38,17 @@ header{
 nav{
     background-color: orange;
 }
- .nav__login{
+.nav-bar{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.nav-bar__content{
+    padding: 10px;
+}
+ .nav-bar__login{
     text-align: right;
  }
- .nav__links{
+ .nav-bar__links{
     text-align: center;
  }
 
@@ -53,4 +60,8 @@ nav{
 
 .debug .row{
     border: 2px solid red;
+}
+
+.debug [class^='col-']{
+    border: 1px solid green;
 }
