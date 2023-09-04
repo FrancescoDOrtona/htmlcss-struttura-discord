@@ -26,8 +26,18 @@ body{
     flex-basis: calc(100% / 4);
 }
 
+.col-4{
+    flex-basis: calc(100% / 3);
+    background-color: pink;
+}
+
 .col-6{
     flex-basis: calc(100% / 2);
+}
+
+.col-8{
+    flex-basis: calc(100% / 1.5);
+    background-color: lightskyblue;
 }
 
 .col-10{
@@ -67,6 +77,10 @@ nav{
  [class^='main-section']{
     margin-top: 20px;
     margin-bottom: 20px;
+ }
+
+ .col-4, .col-8{
+    min-height: 400px;
  }
 
 /*  debug */
