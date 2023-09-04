@@ -15,21 +15,31 @@ body{
     margin: 0 auto;
 }
 
+ul,li,menu{
+    list-style: none;
+}
+
 /* row and col */
 
 .row{
     display: flex;
     flex-wrap: wrap;
 }
+/* header */
+header{
+    background-color: aqua;
+}
+
+nav{
+    background-color: orange;
+}
 
 /*  debug */
 
 .debug .container{
-    border: 2px solid black;
-    padding: 20px;
+    border: 2px solid black;   
 }
 
 .debug .row{
     border: 2px solid red;
-    padding: 10px;
 }
