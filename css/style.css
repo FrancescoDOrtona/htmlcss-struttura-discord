@@ -15,15 +15,20 @@ body{
     margin: 0 auto;
 }
 
-ul,li,menu{
-    list-style: none;
-}
 
 /* row and col */
 
 .row{
     display: flex;
     flex-wrap: wrap;
+}
+
+.col-3{
+    flex-basis: calc(100% / 4);
+}
+
+.col-6{
+    flex-basis: calc(100% / 2);
 }
 /* header */
 header{
@@ -33,6 +38,12 @@ header{
 nav{
     background-color: orange;
 }
+ .nav__login{
+    text-align: right;
+ }
+ .nav__links{
+    text-align: center;
+ }
 
 /*  debug */
 
